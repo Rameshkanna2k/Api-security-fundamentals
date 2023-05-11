@@ -8,3 +8,8 @@ T mobile - SEC reporting
 OPTUS - Ransom
 Experian - 3rd Party exposure
 
+1.Coinbase - crypto Trading Platform (Broken Object Level Authorization)
+step 1 : User scarped API calls from web UI.
+step 2 : Identified 4 key parameters for any coinbase transaction
+step 3 : Manipulated the parameters via API calls
+step 4 : sold crypto they DID NOT own.
