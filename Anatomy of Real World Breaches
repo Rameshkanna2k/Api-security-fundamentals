@@ -13,3 +13,10 @@ step 1 : User scarped API calls from web UI.
 step 2 : Identified 4 key parameters for any coinbase transaction
 step 3 : Manipulated the parameters via API calls
 step 4 : sold crypto they DID NOT own.
+
+2.USPS Site - Postal Service (Broken Oject Level Authorization)
+1.USPS relied on traditional code and web scanners
+2.found missing API Authentication.
+3.USPS added authentication
+4.Left out Authorization
+5.User A able to access User B details.
