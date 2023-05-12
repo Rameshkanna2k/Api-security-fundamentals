@@ -20,3 +20,8 @@ step 4 : sold crypto they DID NOT own.
 3.USPS added authentication
 4.Left out Authorization
 5.User A able to access User B details.
+
+3.Peloton - (Broken oject level authorization)(Broken Authentication)
+1.OpenAPI allowed request for user details with NO authentication
+
+
