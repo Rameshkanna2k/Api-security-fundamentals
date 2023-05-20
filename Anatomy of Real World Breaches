@@ -21,7 +21,19 @@ step 4 : sold crypto they DID NOT own.
 4.Left out Authorization
 5.User A able to access User B details.
 
-3.Peloton - (Broken oject level authorization)(Broken Authentication)
-1.OpenAPI allowed request for user details with NO authentication
+3.Peloton - (Broken Authentication)
+1.Open API allowed request for user details with NO authentication
 
+4.Venmo Payments - Unrestricted Resource Consumptions
+1.Venmo homepage presented live feed of tranctions
+2.hacker sniffed traffic and identified API calls
+3.20-line script , using 2 IPS
+4.pulled 115k transactions
+5.API returned All transaction details.
 
+5.Instagram - laxman tamil bro
+1.Account reset requires 6-digit code
+2.Researcher found API to submit reser code guesses
+3.Guesses limited to 200 per ip
+4.Researcher demonstrated could rotate through 5000 ips in seconds
+5.Enables takeover of any account
