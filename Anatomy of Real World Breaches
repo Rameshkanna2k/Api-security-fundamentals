@@ -38,4 +38,21 @@ step 4 : sold crypto they DID NOT own.
 4.Researcher demonstrated could rotate through 5000 ips in seconds
 5.Enables takeover of any account
 
-6.Bumble
+6.Bumble (Broken function level autjorization)
+1.Increamental of IDs helps the attacker to easy get the information
+2.having user followd by 001,002 isn't a best practice.
+3.the attacker have the permission to change himself from free to paid account.
+
+7.T-mobiles - do not what happen clearly
+1.single api without authorization helps the attacker to get sensitive information.
+2.without authorization means broken authentication or lack of authentication.
+
+8.Optus
+1.API Endpoint don't required authentication to access.
+2.driver license , username and passwords are leaked.
+
+9.Experian
+1.experian feature used to look cresdit score of a user
+2.attacker sniffed the api calls
+3.no authentication required in a api calls
+4.Able to access sensitive informations.
