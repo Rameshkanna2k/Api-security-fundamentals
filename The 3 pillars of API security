@@ -1,1 +1,52 @@
+------------------------------3 Pillars of API Security------------------------------
+1.Governance 
+2.Testing 
+3.Monitoring
+
+---------------------------------Governance------------------------
+1.Consistency
+2.setting expectations
+3.Establishing standard processes
+4.Enforcing security
+engineering process,API documentation,Design guides
+know your APIs     
+Know your data
+know your risks
+
+--------------------------------Testing----------------------------------
+Where do you want to find API vulnerabilities?
+*pre-production
+*production
+
+API Security
+Data Security
+Business Logic
+
+------------------------------------Monitoring-----------------------------------
+Runtime protection
+*policy enforcement
+*authentication
+*traffic filtering
+
+Threat Detection
+*fraudulent traffic
+*distributed attacks
+*incident response
+
+Control Validation
+*verify API controls
+*uncover anomalies
+
+Proactive:Blocking
+*API Gateway
+*web app firewall
+
+reative:Alerting
+logging SIEM
+Runtime API Threat Management
+
+
+
+
+
 
