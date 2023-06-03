@@ -1,1 +1,20 @@
+---------------------------------Application security landscape----------------------
 
+SAST,DAST
+SCA,Container Security
+WAF
+API security
+
+
+Pre-production - Develop,Deploy
+---------------------------------
+
+Static code analysis 
+API security Testing
+Software Composition Analysis
+
+Production - Operate
+----------------------
+
+API Gateway
+API Threat Management
