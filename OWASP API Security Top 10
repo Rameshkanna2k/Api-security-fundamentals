@@ -1,1 +1,35 @@
+--------------------------------------OWASP TOP 10 BACKGROUND--------------------------------------------------
+OWASP - Open web application security projects
+
+---------------------------------------Broken object level Authorization-----------------------------------------
+Most common damaging api vulnerability , Attacker authenicates as user A and retrive informations of user B.
+*manipulating ID's
+
+----------------------------------------Broken Authentication-------------------------------------------
+weak or poor authentication creates vulnerability :
+missing security controls
+poorly implemented controls
+
+weak authentication are things like weak password requirements; 
+vulnerability to credential stuffing; 
+brute forcing of IDs and passwords - which are quite readily available on the dark web;
+lack of CAPTCHAs or rate limiting; lack of lockouts on accounts;
+putting authentication info into URLs - which can be sniffed and reused by malicious parties;
+changing passwords without authentication or verification; not validating tokens; not storing passwords properly. 
+
+
+------------------------------Broken object property level authorization-------------------------------------
+Exploit of endpoint by reading or modifying values of objects.
+
+User is able to set "account-type:premium" , user select a endpoint returns excessive data , also contains 
+sensitive data.
+
+--------------------------------Unrestricted Resource consumption---------------------------------
+1.Mass data retrivel
+2.risk of operation interruption
+
+Missing inadquate rate controls
+exection timeouts
+Max allocable memory
+max number of files , upload
 
