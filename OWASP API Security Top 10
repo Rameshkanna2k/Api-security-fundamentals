@@ -30,6 +30,21 @@ sensitive data.
 
 Missing inadquate rate controls
 exection timeouts
-Max allocable memory
 max number of files , upload
+Max allocable memory
+
+----------------------------------Broken Functional level authorization----------------------------------
+Abuse of API functionality to imporperly modify (create,delete,update) objects.
+
+Often involves replacing passive methods get into PUT,DELETE
+
+Replacing GET with PUT
+Modify parameter with role:admin
+Deleting an invoice
+setting account balance $0
+
+-------------------------------------
+
+
+
 
